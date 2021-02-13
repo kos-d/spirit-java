@@ -9,7 +9,7 @@ public class AppHello {
     //variables
     kos.name = "Kostiantyn";
     kos.age = 35;
-    kos.sity = "Kharkiv";
+    kos.city = "Kharkiv";
     kos.education = "civil engineer";
     kos.goal = "to become a Java Developer";
     

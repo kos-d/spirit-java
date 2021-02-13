@@ -1,6 +1,8 @@
 public class AppHello {
+    // main method
     public static void main(String[] args) {
-    //Constructor      
+   
+    //constructor      
     Human kos;
     kos = new Human();
 
@@ -10,7 +12,8 @@ public class AppHello {
     kos.sity = "Kharkiv";
     kos.education = "civil engineer";
     kos.goal = "to become a Java Developer";
-
+    
+    // method
     kos.speak();
     
     }

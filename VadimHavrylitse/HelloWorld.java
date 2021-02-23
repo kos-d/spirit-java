@@ -1,4 +1,4 @@
-package wew;
+package VadimHavrylitse;
 
 public class HelloWorld {
     public static void main(String[] args) {

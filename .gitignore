@@ -1,12 +1,10 @@
 target/
 out/
 
-.DS_Store/
 .idea/
 .git/
-/.git/
 
-*.DS_Store
+.DS_Store
 *.iml
 *.xml
 

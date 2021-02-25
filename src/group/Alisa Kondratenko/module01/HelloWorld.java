@@ -1,4 +1,4 @@
-package anna_pushkina;
+package AlisaKondratenko;
 
 class HelloWorld {
     public static void main (String [] args) {

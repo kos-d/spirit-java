@@ -1,4 +1,4 @@
-package Tani;
+package Tani.module01;
 
 public class HelloWorld {
     public static void main(String[] args) {

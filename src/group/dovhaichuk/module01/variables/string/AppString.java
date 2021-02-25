@@ -1,3 +1,5 @@
+package dovhaichuk.module01.variables.string;
+
 public class AppString {
 
     public static void main(String[] args) {

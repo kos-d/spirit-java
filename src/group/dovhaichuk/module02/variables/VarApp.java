@@ -22,7 +22,7 @@ public class VarApp {
         String stringVar = "String";    // Reference type
 
         //Logical
-        boolean bool = true;            // 1 bits
+        //boolean bool = true;            // 1 bits
 
         // Variables string title 
         String typeHead     = "Type";
@@ -44,27 +44,27 @@ public class VarApp {
         int boolAmount      = 1;
 
         // out in console
-        System.out.printf("%s %n", "=================================");
+        System.out.printf("%2s %n", "=================================");
         System.out.printf("%24s %n", "<< Numeric type >>");
-        System.out.printf("%s %n", "=================================");
-        System.out.printf("%s %15s %10s %n", typeHead, amountHead, bitsHead);
-        System.out.printf("%s %n", "_________________________________");
-        System.out.printf("%s %13x %12s %n", byteTitle, byteVar, extension);
-        System.out.printf("%s %12d %12s %n", shortTitle, shortVar, extension);
-        System.out.printf("%s %14d %12s %n", intTitle, intVar, extension);
-        System.out.printf("%s %13d %12s %n", longTitle, longVar, extension);
-        System.out.printf("%s %15.2f %9s %n", floatTitle, floatVar, extension);
-        System.out.printf("%s %14.2f %9s %n", doubleTitle, doubleVar, extension);
-        System.out.printf("%s %n", "=================================");
+        System.out.printf("%2s %n", "=================================");
+        System.out.printf("%2s %15s %10s %n", typeHead, amountHead, bitsHead);
+        System.out.printf("%2s %n", "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _");
+        System.out.printf("%2s %13x %12s %n", byteTitle, byteVar, extension);
+        System.out.printf("%2s %12d %12s %n", shortTitle, shortVar, extension);
+        System.out.printf("%2s %14d %12s %n", intTitle, intVar, extension);
+        System.out.printf("%2s %13d %12s %n", longTitle, longVar, extension);
+        System.out.printf("%2s %15.2f %9s %n", floatTitle, floatVar, extension);
+        System.out.printf("%2s %14.2f %9s %n", doubleTitle, doubleVar, extension);
+        System.out.printf("%2s %n", "=================================");
         System.out.printf("%24s %n", "<< Textual type >>");
-        System.out.printf("%s %n", "=================================");
-        System.out.printf("%s %15s %10s %n", typeHead, amountHead, bitsHead);
-        System.out.printf("%s %n", "_________________________________");
-        System.out.printf("%s %13s %12s %n", charTitle, charVar, extension);
-        System.out.printf("%s %13s %9s %n", stringVar, nullVar, refVar);
-        System.out.printf("%s %n", "=================================");
+        System.out.printf("%2s %n", "=================================");
+        System.out.printf("%2s %15s %10s %n", typeHead, amountHead, bitsHead);
+        System.out.printf("%2s %n", "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _");
+        System.out.printf("%2s %13s %12s %n", charTitle, charVar, extension);
+        System.out.printf("%2s %13s %9s %n", stringVar, nullVar, refVar);
+        System.out.printf("%2s %n", "=================================");
         System.out.printf("%24s %n", "<< Logical type >>");
-        System.out.printf("%s %n", "=================================");
-        System.out.printf("%s %9d %13s %n", booleanTitle, boolAmount, extension);
+        System.out.printf("%2s %n", "=================================");
+        System.out.printf("%2s %9d %13s %n", booleanTitle, boolAmount, extension);
     }
 }

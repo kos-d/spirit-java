@@ -1,3 +1,4 @@
+/*
 package VadimHavrylitse.module01;
 
 public class HelloWorld {
@@ -6,3 +7,4 @@ public class HelloWorld {
         System.out.println("Hello World, I am Vadim Havrylitse");
     }
 }
+*/

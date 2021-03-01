@@ -1,4 +1,4 @@
-
+package VadimHavrylitse.module01;
 import java.util.Scanner;
 
 class SomeFile {
@@ -24,16 +24,22 @@ class SomeFile {
                 switch (k) {
                     case (1):
                         f1.setFriends();
+                        break;
                     case (2):
                         f2.setFriends();
+                        break;
                     case (3):
                         f3.setFriends();
+                        break;
                     case (4):
                         f4.setFriends();
+                        break;
                     case (5):
                         f5.setFriends();
+                        break;
                     default:
                         i = 3;
+                        break;
                 }
             }
 
@@ -42,14 +48,19 @@ class SomeFile {
                     switch (j) {
                         case (1):
                             f1.printFriends();
+                            break;
                         case (2):
                             f2.printFriends();
+                            break;
                         case (3):
                             f3.printFriends();
+                            break;
                         case (4):
                             f4.printFriends();
+                            break;
                         case (5):
                             f5.printFriends();
+                            break;
                     }
                 }
 

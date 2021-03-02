@@ -1,11 +1,16 @@
+/nbproject
+dist/
+build/
 target/
 out/
 
 .idea/
 .git/
 
-.DS_Store
+*.mf
 
+.DS_Store
+*.iml
 *.xml
 
 # Compiled class file
@@ -35,3 +40,6 @@ hs_err_pid*
 
 # vim backUp files
 *.swp
+/dmitrozolotukhin/nbproject/private/
+/dmitrozolotukhin/dist/
+/dmitrozolotukhin/build/

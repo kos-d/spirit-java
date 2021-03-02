@@ -1,22 +1,32 @@
-class YearVariablesTask {
-    public static void main(String[] args) {
-        byte allMonthCountButNotWinter = 9;
-        short february1996DayCount = 29;
-        int halfOfTotalSpringDayCount = 46;
-        long yearSecondCount = 31536000l;
-        float quarterOfMayDayCount = 7.8f;
-        double dayCountOfLongMonths = 217d;
-        char springLetter = 'r';
-        boolean isLeap1900 = false;
-
-        System.out.println(allMonthCountButNotWinter);
-        System.out.println(february1996DayCount);
-        System.out.println(halfOfTotalSpringDayCount);
-        System.out.println(yearSecondCount);
-        System.out.println(quarterOfMayDayCount);
-        System.out.println(dayCountOfLongMonths);
-        System.out.println(springLetter);
-        System.out.println(isLeap1900);
+class MarsCalculator {
+    public int sum(int a, int b, int c) {
+        return a + b + c;
     }
 
+    public int sub(int a, int b, int c) {
+        return a - b - c;
+    }
+    public int multiply(int a, int b, int c){
+        return sum(a,b,c)*sub(a,b,c);
+    }
+
+    public float divide(int a, int b, int c) {
+        return sum(a,b,c)/10f;
+    }
+
+    public static void main(String[] args) {
+        MarsCalculator math = new MarsCalculator();
+
+        //Should be 6
+        System.out.println("math.sum(1, 2, 3) = " + math.sum(1, 2, 3));
+
+        //Should be -4
+        System.out.println("math.sub(1, 2, 3) = " + math.sub(1, 2, 3));
+
+        //Should be -24
+        System.out.println("math.multiply(1, 2, 3) = " + math.multiply(1, 2, 3));
+
+        //Should be 0.6
+        System.out.println("math.divide(1, 2, 3) = " + math.divide(1, 2, 3));
+    }
 }

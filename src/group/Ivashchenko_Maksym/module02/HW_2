@@ -1,32 +1,24 @@
-class MarsCalculator {
-    public int sum(int a, int b, int c) {
-        return a + b + c;
+class BrokenKeyboardCalculator {
+    public int add(int a, int b){
+        return a += b;
+    }
+    public int sub(int a, int b){
+        return a -= b;
+    }
+    public int multiply(int a, int b){
+        return a *= b;
+    }
+    public int divide(int a, int b){
+        return a /= b;
     }
 
-    public int sub(int a, int b, int c) {
-        return a - b - c;
-    }
-    public int multiply(int a, int b, int c){
-        return sum(a,b,c)*sub(a,b,c);
-    }
 
-    public float divide(int a, int b, int c) {
-        return sum(a,b,c)/10f;
-    }
-
+    //Expected output
     public static void main(String[] args) {
-        MarsCalculator math = new MarsCalculator();
-
-        //Should be 6
-        System.out.println("math.sum(1, 2, 3) = " + math.sum(1, 2, 3));
-
-        //Should be -4
-        System.out.println("math.sub(1, 2, 3) = " + math.sub(1, 2, 3));
-
-        //Should be -24
-        System.out.println("math.multiply(1, 2, 3) = " + math.multiply(1, 2, 3));
-
-        //Should be 0.6
-        System.out.println("math.divide(1, 2, 3) = " + math.divide(1, 2, 3));
+        BrokenKeyboardCalculator counter = new BrokenKeyboardCalculator();
+        System.out.println("add(5, 3) = " + counter.add(5, 3));
+        System.out.println("sub(8, 7) = " + counter.sub(8, 7));
+        System.out.println("multiply(1, 100) = " + counter.multiply(1, 100));
+        System.out.println("divide(8, 4) = " + counter.divide(8, 4));
     }
 }

@@ -1,3 +1,5 @@
+package class_and_object;
+
 public class Human {
 
     String name;

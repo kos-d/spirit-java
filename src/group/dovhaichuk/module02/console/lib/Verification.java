@@ -1,4 +1,4 @@
-package dovhaichuk.module02.console.lib;
+package module02.console.lib;
 
 import java.io.Console;
 

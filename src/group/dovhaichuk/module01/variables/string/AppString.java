@@ -1,4 +1,4 @@
-package dovhaichuk.module01.variables.string;
+package module01.variables.string;
 
 public class AppString {
 

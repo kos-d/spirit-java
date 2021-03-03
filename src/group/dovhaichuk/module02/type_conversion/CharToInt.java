@@ -1,4 +1,4 @@
-package dovhaichuk.module02.type_conversion;
+package module02.type_conversion;
 
 public class CharToInt {
     public static void main(String[] args) {

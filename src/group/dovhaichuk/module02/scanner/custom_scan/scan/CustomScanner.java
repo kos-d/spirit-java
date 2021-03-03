@@ -1,4 +1,4 @@
-package dovhaichuk.module02.scanner.custom_scan.scan;
+package module02.scanner.custom_scan.scan;
 
 import java.util.Scanner;
 

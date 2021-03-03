@@ -1,3 +1,5 @@
+package class_and_object;
+
 public class AppHello {
     // main method
     public static void main(String[] args) {

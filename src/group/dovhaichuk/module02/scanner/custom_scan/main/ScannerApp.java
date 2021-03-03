@@ -1,4 +1,4 @@
-package dovhaichuk.module02.scanner.custom_scan.main;
+package module02.scanner.custom_scan.main;
 
 import dovhaichuk.module02.scanner.custom_scan.scan.CustomScanner;
 

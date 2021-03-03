@@ -1,3 +1,5 @@
+package java_patterns.strategy.tower;
+
 public class King extends Character {
 	
 	public void display() {

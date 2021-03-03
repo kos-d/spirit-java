@@ -1,3 +1,5 @@
+package methods.loops.appIf;
+
 public class MainApp {
     public static void main(String[] args) {
         IfTest objectA = new IfTest();

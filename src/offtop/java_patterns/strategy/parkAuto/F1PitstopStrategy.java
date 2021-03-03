@@ -1,3 +1,5 @@
+package java_patterns.strategy.parkAuto;
+
 public class F1PitstopStrategy implements FillStrategy {
 
     public void fill() {

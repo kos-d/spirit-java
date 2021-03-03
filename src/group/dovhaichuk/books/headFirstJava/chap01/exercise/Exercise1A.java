@@ -1,3 +1,4 @@
+package books.headFirstJava.chap01.exercise;
 
 class Exercise1A {
 

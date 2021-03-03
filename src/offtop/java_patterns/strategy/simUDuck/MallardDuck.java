@@ -1,3 +1,5 @@
+package java_patterns.strategy.simUDuck;
+
 public class MallardDuck extends Duck {
 
 	public MallardDuck() {

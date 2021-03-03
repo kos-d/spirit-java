@@ -1,3 +1,5 @@
+package methods.loops.appIf;
+
 public class IfTest {
     
     public boolean boolA = true;

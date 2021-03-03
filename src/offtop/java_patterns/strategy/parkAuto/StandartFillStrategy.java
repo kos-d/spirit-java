@@ -1,3 +1,5 @@
+package java_patterns.strategy.parkAuto;
+
 public class StandartFillStrategy implements FillStrategy {
 
     @Override

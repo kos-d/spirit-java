@@ -1,3 +1,5 @@
+package java_patterns.strategy.tower;
+
 public class TowerGame {
 	public static void main(String[] args) {
 

@@ -1,3 +1,5 @@
+package java_patterns.strategy.tower;
+
 public abstract class Character {
 	
 	WeaponBehavior weapon;

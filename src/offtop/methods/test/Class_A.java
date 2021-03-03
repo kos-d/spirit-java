@@ -1,4 +1,4 @@
-package com.test;
+package methods.test;
 
 public class Class_A {
 	public static void main(String[] args) {

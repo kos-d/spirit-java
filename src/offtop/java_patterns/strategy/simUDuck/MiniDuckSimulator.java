@@ -1,3 +1,5 @@
+package java_patterns.strategy.simUDuck;
+
 public class MiniDuckSimulator {
 
 	public static void main(String[] args) {

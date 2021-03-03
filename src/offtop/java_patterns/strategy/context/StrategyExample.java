@@ -1,3 +1,5 @@
+package java_patterns.strategy.context;
+
 class StrategyExample {
 
     public static void main(String[] args) {

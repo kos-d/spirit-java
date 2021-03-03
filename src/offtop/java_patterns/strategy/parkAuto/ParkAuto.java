@@ -1,3 +1,5 @@
+package java_patterns.strategy.parkAuto;
+
 public class ParkAuto {
 
     public static void main(String[] args) {

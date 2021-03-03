@@ -1,3 +1,5 @@
+package java_patterns.strategy.tower;
+
 public class Queen extends Character {
 	
 	public Queen() {

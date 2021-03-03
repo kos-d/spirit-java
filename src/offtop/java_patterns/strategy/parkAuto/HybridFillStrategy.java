@@ -1,3 +1,5 @@
+package java_patterns.strategy.parkAuto;
+
 public class HybridFillStrategy implements FillStrategy {
 
     @Override

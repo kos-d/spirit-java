@@ -1,3 +1,4 @@
+package books.headFirstJava.chap01.beerSong;
 
 public class BeerSong {
     public static void main(String[] args) {

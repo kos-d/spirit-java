@@ -1,3 +1,5 @@
+package java_patterns.strategy.context;
+
 class Context {
     
     private Strategy strategy;

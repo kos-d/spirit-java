@@ -1,3 +1,5 @@
+package books.headFirstJava.chap01.poolPuzzle;
+
 public class PoolPuzzleOne {
 
     public static void main(String[] args) {

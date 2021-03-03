@@ -1,3 +1,5 @@
+package java_patterns.strategy.simUDuck;
+
 public abstract class Duck {
 	
 	FlyBehavior flyBehavior;

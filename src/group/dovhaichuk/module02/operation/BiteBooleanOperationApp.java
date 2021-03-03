@@ -1,4 +1,4 @@
-package dovhaichuk.module02.operation;
+package module02.operation;
 
 public class BiteBooleanOperationApp {
     public static void main(String[] args) {

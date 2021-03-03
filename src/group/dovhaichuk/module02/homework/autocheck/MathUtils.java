@@ -17,19 +17,15 @@ public class MathUtils {
     public float twice(float number) {
         return number /= 0.5f;
     }
-   
+    // method quad
     public float quad(float number) {
         return 2 * twice(number);
     }   
-
+    // method twicedSum
     public int twicedSum(int a, int b) {
         return sum(a, b) * 2;
     }
 
-
-
-
-    
     public static void main(String[] args) {
         MathUtils math = new MathUtils();
 

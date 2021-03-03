@@ -1,27 +1,25 @@
 package module02.homework.autocheck;
 
-// 10, 11
-
 public class MathUtils {
-    // method sum
+    // nonStatic  method sum
     public int sum(int a, int b) {
         return a + b;
     }
     
-    // method sub
+    // nonStatic method sub
     public int sub(int a, int b) {
         return a - b;
     }
     
-    // method twice
+    // nonStatic method twice
     public float twice(float number) {
         return number /= 0.5f;
     }
-    // method quad
+    // nonStatic method quad
     public float quad(float number) {
         return 2 * twice(number);
     }   
-    // method twicedSum
+    // nonStatic method twicedSum
     public int twicedSum(int a, int b) {
         return sum(a, b) * 2;
     }

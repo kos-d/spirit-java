@@ -1,19 +1,19 @@
 package module02.homework.autocheck;
 
 public class MarsCalculator {
-
+    // nonStatic method sum
     public int sum(int a, int b, int c) {
         return a + (b + c);
     }
-    
+    // nonStatic method sub
     public int sub(int a, int b, int c) {
         return a - (b + c);
     }
-    
+    // nonStatic method multiply
     public int multiply(int a, int b, int c) {
         return sum(a, b, c) * sub(a, b, c);      
     }
-    
+    // nonStatic method divide
     public float divide(int a, int b, int c) {
         return sum(a, b, c) / 10f;
     }

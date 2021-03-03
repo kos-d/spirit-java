@@ -11,5 +11,12 @@ public class TowerGame {
 	queen.display();
 	queen.performFight();
 
+	Character knight = new Knight();
+	knight.display();
+	knight.performFight();
+
+	Character troll = new Troll();
+	troll.display();
+	troll.performFight();
 	}
 }

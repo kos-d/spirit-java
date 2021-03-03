@@ -1,24 +1,23 @@
-class BrokenKeyboardCalculator {
-    public int add(int a, int b){
-        return a += b;
+class ProfShop {
+    public boolean isPriceOk(int price){
+        return price != 1000;
     }
-    public int sub(int a, int b){
-        return a -= b;
+    public float calculateRegularDiscountPrice(float price){
+        return price = price*0.9f;
     }
-    public int multiply(int a, int b){
-        return a *= b;
+    public boolean isDiscount50(int price){
+        return price == 1000/4;
     }
-    public int divide(int a, int b){
-        return a /= b;
+    public boolean isPriceHappy(int price, int year, int day){
+        return price == year * day;
     }
-
 
     //Expected output
     public static void main(String[] args) {
-        BrokenKeyboardCalculator counter = new BrokenKeyboardCalculator();
-        System.out.println("add(5, 3) = " + counter.add(5, 3));
-        System.out.println("sub(8, 7) = " + counter.sub(8, 7));
-        System.out.println("multiply(1, 100) = " + counter.multiply(1, 100));
-        System.out.println("divide(8, 4) = " + counter.divide(8, 4));
+        ProfShop price1 = new ProfShop();
+        System.out.println(isPriceOk(1500));
+        System.out.println(calculateRegularDiscountPrice(1500));
+        System.out.println(isDiscount50(256));
+        System.out.println(isPriceHappy(23700, 3950, 6));
     }
 }

@@ -1,4 +1,4 @@
-package dovhaichuk.module01;
+package module01;
 
 public class HelloWorld {
     public static void main(String[] args) {

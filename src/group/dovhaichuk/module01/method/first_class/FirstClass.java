@@ -1,4 +1,4 @@
-package dovhaichuk.module01.method.first_class;
+package module01.method.first_class;
 
 public class FirstClass {
 

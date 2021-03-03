@@ -1,7 +1,7 @@
-package dovhaichuk.module02.console.main;
+package module02.console.main;
 
-import dovhaichuk.module02.console.lib.Message;
-import dovhaichuk.module02.console.lib.Verification;
+import module02.console.lib.Message;
+import module02.console.lib.Verification;
 
 public class MainApp {
     public static void main(String[] args) {

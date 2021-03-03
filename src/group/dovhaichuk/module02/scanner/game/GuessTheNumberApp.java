@@ -1,4 +1,4 @@
-package dovhaichuk.module02.scanner;
+package module02.scanner;
 
 import java.lang.String;        // use class String
 import java.lang.System;        // use class System, methods: .in(), .out()

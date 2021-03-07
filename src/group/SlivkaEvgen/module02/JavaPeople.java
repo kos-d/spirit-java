@@ -20,33 +20,5 @@ public class JavaPeople {
         System.out.println("Человек по имени " + name + " живет в городе " + city + ". \nЭтому человеку "  + age + " лет и любит он заниматьс " + hobby + ".");
         System.out.println(name + " - Name \n" + city + " - city \n" + age + " - Age \n" + hobby + " - Hobby ");
 
-
-
-
-       // String name = "";
-     //   String city = "";
-      //  int age = 0;
-       // String hobby = "";
-
-      //  Scanner in = new Scanner(System.in);
-
-      //  System.out.println("Enter your name: ");
-     //   name = in.nextLine();
-        //System.out.println("Your name is: " + name);
-
-      //  System.out.println("Enter your city: ");
-      //  city = in.nextLine();
-        //System.out.println("Your city is: " + city);
-
-      //  System.out.print("Enter your age: ");
-      //  age = in.nextInt();
-       // System.out.println("Your age is: " + age);
-
-      //  System.out.print("Enter your hobby: ");
-      //  hobby = in.nextLine();;
-        // System.out.println("Your hobby is: " + hobby);
-
-      //  in.close();
-      //  System.out.printf("Name : " + name +  "Age : " + age + "City : " + city +  "hobby : " + hobby);
     }
 }

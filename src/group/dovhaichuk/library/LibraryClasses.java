@@ -10,11 +10,25 @@ import java.util.Scanner;
 public class LibraryClasses {
 
     public static void main(String[] args) {
-        System.out.printf("test");
 
         Object object = new Object();
         System.gc();
+        System.out.println("test");
+
         String string = new String();
+
+        String firstName = "exor";
+        String lastName = "bigo";
+        String space = " ";
+
+        String fullName = String.join(space, firstName.toLowerCase(), lastName.toUpperCase());
+        System.out.println(fullName);
+
+        boolean equals = firstName.equals(lastName);
+        System.out.println(equals);
+
+        boolean contains = firstName.contains("x");
+        System.out.println(contains);
 
         Scanner scanner = new Scanner(System.in);
         Console console = System.console();

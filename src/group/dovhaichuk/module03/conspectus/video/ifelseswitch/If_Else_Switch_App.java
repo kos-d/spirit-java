@@ -2,7 +2,7 @@ package module03.conspectus.video.ifelseswitch;
 
 import java.util.Random;
 
-public class IfElseSwitchApp {
+class If_Else_Switch_App {
     public static void main(String[] args) {
 
         int age = getRandomInt();

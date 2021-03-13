@@ -2,9 +2,53 @@ package module03.conspectus.video.ifelseswitch;
 
 import java.util.Random;
 
-public class IfElseSwitchApp {
+public class TernarApp {
     public static void main(String[] args) {
+        int randomInt = getRandomInt();
+        System.out.println("randomInt() = " + randomInt);
 
+
+        System.out.println(randomInt < 10 ? getRandomInt() : getRandomBoolean());
+/*
+        if (randomInt < 10) {
+            getRandomInt();
+        } else {
+            getRandomBoolean();
+        }
+*/
+        System.out.println("randomInt = " + randomInt);
+      //  System.out.println("getRandomInt() = " + getRandomInt());
+      //  System.out.println("getRandomBoolean() = " + getRandomBoolean());
+        
+        //int result;
+
+  //      System.out.println((randomInt > 0) ? getRandomInt() : getRandomBoolean());
+       /* 
+        if (randomInt > 10) {
+            System.out.println("randomInt if = " + randomInt);
+            result = 1;
+        } else {
+            System.out.println("randomInt else = " + randomInt);
+            result = 2;
+        }
+*/
+//        result = (randomInt > 10) ? 1 : 2;
+//        result = (randomInt > 10) ? getRandomInt() : getRandomBoolean();
+//        System.out.println("randomInt = " + randomInt);
+        //System.out.println("result = " + result);
+    }
+  
+    public static int getRandomInt() {
+        Random random = new Random();
+        return random.nextInt(20);
+    }
+    public static boolean getRandomBoolean() {
+        Random random = new Random();
+        return random.nextBoolean();
+    }
+}
+
+/*
         int age = getRandomInt();
 
         System.out.println("age " + age);
@@ -39,22 +83,6 @@ public class IfElseSwitchApp {
         return random.nextBoolean();
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
       
         if (expression/boolean) {   (выражение)
             //statement             (условие)

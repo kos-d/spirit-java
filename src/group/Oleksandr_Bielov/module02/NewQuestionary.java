@@ -1,4 +1,4 @@
-package group.Oleksandr_Bielov.module2;
+package Oleksandr_Bielov.module02;
 
 import java.util.Scanner;
 

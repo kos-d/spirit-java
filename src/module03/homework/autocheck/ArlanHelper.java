@@ -100,18 +100,18 @@ public class ArlanHelper {
         return result;
     }
     */
-    public String drawPattern(char[] pattern, int repeatCount) {
-        String result = "";
-        int count = 0;
-        int patternLength = pattern.length;
-
-        while (patternLength > 0) {
-            result += pattern[count];
-            patternLength--;
-            count++;
-        }
-        return result.repeat(repeatCount);
-    }
+//    public String drawPattern(char[] pattern, int repeatCount) {
+//        String result = "";
+//        int count = 0;
+//        int patternLength = pattern.length;
+//
+//        while (patternLength > 0) {
+//            result += pattern[count];
+//            patternLength--;
+//            count++;
+//        }
+//        return result.repeat(repeatCount);
+//    }
 
     public static void main(String[] args) {
         ArlanHelper helper = new ArlanHelper();
@@ -120,6 +120,6 @@ public class ArlanHelper {
         System.out.println(helper.drawQuad(2));
         System.out.println(helper.drawRect(2, 3, 'X'));
         System.out.println(helper.drawLine(5));
-        System.out.println(helper.drawPattern(new char[] {'J', 'a', 'v', 'a'}, 3));
+//        System.out.println(helper.drawPattern(new char[] {'J', 'a', 'v', 'a'}, 3));
     }
 }

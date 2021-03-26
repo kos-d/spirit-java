@@ -27,7 +27,7 @@ public class ArrayBeginApp {
         myArray[3] = 4;
 
         
-        System.out.println("Arrays.compare() " + Arrays.compare(array, myArray));
+       // System.out.println("Arrays.compare() " + Arrays.compare(array, myArray));
 
                 
 //        Arrays.copyOf();
@@ -37,18 +37,7 @@ public class ArrayBeginApp {
         System.out.println("myArray " + Arrays.toString(myArray));
     }
 }
-
-
-
-
-
-
-
-
-
-
 /*
-
         for (int i = 0; i < args.length; i++) {
             System.out.println(args[i]);
         }

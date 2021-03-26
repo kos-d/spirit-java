@@ -1,3 +1,5 @@
+spirit-java-nb-settings/
+
 /nbproject
 dist/
 build/
@@ -43,3 +45,4 @@ hs_err_pid*
 /dmitrozolotukhin/nbproject/private/
 /dmitrozolotukhin/dist/
 /dmitrozolotukhin/build/
+/spirit-java-nb-settings/nbproject/private/

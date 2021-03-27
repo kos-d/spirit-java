@@ -1,4 +1,4 @@
-package class_and_object;
+package offtop.class_and_object;
 
 public class AppHello {
     // main method

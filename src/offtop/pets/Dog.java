@@ -1,4 +1,4 @@
-package pets;
+package offtop.pets;
 
 public class Dog extends Pets {
 

@@ -1,4 +1,4 @@
-package java_patterns.strategy.context;
+package offtop.java_patterns.strategy.context;
 
 class ConcreteStrategyMultiply implements Strategy {
 

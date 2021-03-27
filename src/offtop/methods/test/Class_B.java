@@ -1,4 +1,4 @@
-package methods.test;
+package offtop.methods.test;
 
 public class Class_B {
 	

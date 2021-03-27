@@ -1,4 +1,4 @@
-package java_patterns.strategy.simUDuck;
+package offtop.java_patterns.strategy.simUDuck;
 
 public class FlyNoWay implements FlyBehavior {
 	public void fly() {

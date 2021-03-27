@@ -1,6 +1,6 @@
 package books.headFirstJava.chap03.arrays;
 
-import pets.Dog;
+//import pets.Dog;
 
 public class ArraysApp {
     public static void main(String[] args) {
@@ -16,11 +16,11 @@ public class ArraysApp {
         nums[5] = 20;
         nums[6] = 1;
 
-        Dog[] pets;
-        pets = new Dog[7];
-
-        pets[0] = new Dog();
-        pets[1] = new Dog();
+//        Dog[] pets;
+//        pets = new Dog[7];
+//
+//        pets[0] = new Dog();
+//        pets[1] = new Dog();
 
 
 

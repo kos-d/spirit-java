@@ -1,4 +1,4 @@
-package arrays;
+package offtop.arrays;
 
 import java.util.Random;
 import java.util.Arrays;

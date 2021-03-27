@@ -1,4 +1,4 @@
-package java_patterns.strategy.simUDuck;
+package offtop.java_patterns.strategy.simUDuck;
 
 public class FlyWithWings implements FlyBehavior {
 	public void fly() {

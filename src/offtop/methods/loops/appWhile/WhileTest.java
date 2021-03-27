@@ -1,4 +1,4 @@
-package methods.loops.appWhile;
+package offtop.methods.loops.appWhile;
 
 public class WhileTest {
     

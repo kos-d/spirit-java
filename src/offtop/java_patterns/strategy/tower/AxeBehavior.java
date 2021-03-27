@@ -1,4 +1,4 @@
-package java_patterns.strategy.tower;
+package offtop.java_patterns.strategy.tower;
 
 public class AxeBehavior implements WeaponBehavior {
     public void useWeapon() {

@@ -1,4 +1,4 @@
-package methods.loops.appIf;
+package offtop.methods.loops.appIf;
 
 public class IfTest {
     

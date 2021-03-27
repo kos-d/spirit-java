@@ -1,4 +1,4 @@
-package java_patterns.strategy.parkAuto;
+package offtop.java_patterns.strategy.parkAuto;
 
 public class Sedan extends Auto {
 

@@ -21,9 +21,41 @@ public class QuarkeTrackTest {
     }
 }
 class QuarkeTrack {
-    private int[] lines;
-    int lengthLines;
+    private int track;
+    
+    public QuarkeTrack(int[] lines) {
+        int sumOfTracks= 0;
+        for (int i = 0; i < lines.length; i++) {
+            sumOfTracks += lines[i];
+        }
+        this.track = sumOfTracks;
+    }
+    
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        } 
+        if (obj == null || obj.getClass() != this.getClass()) {
+            return false;
+        }
+        QuarkeTrack that = (QuarkeTrack) obj;
+        if (track != that.track) {
+            return false;
+        }
+        return true;
+    }
+    
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + track;
+        return result;
+    }
+}
 
+    /*
     public QuarkeTrack(int[] lines) {
         this.lines = lines;
         for (int i = 0; i < this.lines.length; i++) {
@@ -33,6 +65,7 @@ class QuarkeTrack {
     public int[] getLines() {
         return lines;
     }
+    
     @Override
     public boolean equals(Object o) {
         if (!(o instanceof QuarkeTrack)) {
@@ -44,6 +77,16 @@ class QuarkeTrack {
         }
         return false;
     }
+    
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + Arrays.hashCode(lines);
+        result = prime * result + Arrays.hashCode(lines);
+        return result;
+    }
+    */
 
     /*@Override
     public int hashCode() {
@@ -62,15 +105,12 @@ class QuarkeTrack {
         return result;
     }*/
 
-   /* @Override
-    public int hashCode() {
-        //int result = Objects.hash(lengthLines);
-        *//*int result = 1;
-        result = 31 * result + Arrays.hashCode(lines);
-        return result;*//*
-        //return Arrays.hashCode(lines);
-        //return Arrays.hashCode(this.lines);
-        return Object.hash(lines);
-    }
-    */
-}
+//    @Override
+//    public int hashCode() {
+//        int result = Objects.hash(lengthLines);
+//        int result = 1;
+//        result = 31 * result + Arrays.hashCode(lines);
+//        return result;
+//        return Arrays.hashCode(lines);
+//        return Arrays.hashCode(this.lines);
+//    }

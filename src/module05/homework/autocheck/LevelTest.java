@@ -1,7 +1,7 @@
 package module05.homework.autocheck;
 
 import java.util.Arrays;
-
+/*
 public class LevelTest {
     public static void main(String[] args) {
         //System.out.println(new Level("Test"));
@@ -80,4 +80,5 @@ class Level {
         }
         return resultHash;
     }
-}    
+} 
+*/

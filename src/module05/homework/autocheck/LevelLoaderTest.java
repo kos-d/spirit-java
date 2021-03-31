@@ -1,5 +1,5 @@
 package module05.homework.autocheck;
-
+/*
 public class LevelLoaderTest {
     public static void main(String[] args) {
         //LevelLoader levelLoader = new LevelLoader();
@@ -14,9 +14,14 @@ public class LevelLoaderTest {
 }
 
 class LevelLoader {
-    public static LevelLoader instance = new LevelLoader();
+    private LevelLoader() {}
+    
+    private static LevelLoader instance = new LevelLoader();
     
     public static LevelLoader getInstance() {
+        if (instance == null) {   
+            instance = new LevelLoader();
+        }
         return instance;
     }
     
@@ -24,3 +29,4 @@ class LevelLoader {
         return "Loading level " + levelName + " ...";
     }
 }
+*/

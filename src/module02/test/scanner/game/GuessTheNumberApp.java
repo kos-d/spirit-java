@@ -1,4 +1,4 @@
-package module02.test.scanner;
+package module02.test.scanner.game;
 
 import java.lang.String;        // use class String
 import java.lang.System;        // use class System, methods: .in(), .out()

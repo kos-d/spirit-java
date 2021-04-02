@@ -1,4 +1,4 @@
-package module03.practice;
+package module03.practice.lesson2;
 
 public class SwitchLoopsApp {
     public static void main(String[] args) {
@@ -15,6 +15,5 @@ public class SwitchLoopsApp {
                 System.out.println("***");
                 break;
         }
-
     }
 }

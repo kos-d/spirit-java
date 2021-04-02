@@ -6,6 +6,7 @@ public class Queen extends Character {
 		weapon = new KnifeBehavior();
 	}
 
+        @Override
 	public void display() {
 		System.out.println("I'm a Queen");
 	}

@@ -6,3 +6,10 @@ public class FirstClass {
         return a + b;
     }
 }
+class Runner {
+    public static void main(String[] args) {
+        FirstClass firstClass = new FirstClass();
+        int resultSum = firstClass.sum(2, 4);
+        System.out.println("resultSum = " + resultSum);
+    }
+}

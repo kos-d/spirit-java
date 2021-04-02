@@ -1,4 +1,4 @@
-package module03.conspectus.video.ifelseswitch;
+package module03.conspectus.video.ifelseswitch.test;
 
 import java.util.Random;
 

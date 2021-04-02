@@ -1,4 +1,4 @@
-package module03.conspectus.materials.loop;
+package module03.conspectus.materials.loops;
 import java.util.Scanner;
 import java.util.Arrays;
 

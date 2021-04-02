@@ -1,6 +1,6 @@
-package library;
+package library.string;
 
-public class StringBufferMethods {
+public class StringBuilderMethods {
     public static void main(String[] args) {
         String a = "a";
         String b = "b";
@@ -8,11 +8,11 @@ public class StringBufferMethods {
         
         String d = a + b + c;
         
-        // sinchronize
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         sb.append(a).append(b);
         sb.toString();
         
-        System.out.println(sb.toString());  
+        System.out.println(sb.toString());        
+        
     }
 }

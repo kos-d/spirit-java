@@ -6,6 +6,7 @@ public class Knight extends Character {
         weapon = new LongSpearBehavior();
     }
 
+    @Override
     public void display() {
         System.out.println("I'm knight!");
     }

@@ -5,6 +5,7 @@ public class Troll extends Character {
 		weapon = new AxeBehavior();
 	}
 
+        @Override
 	public void display() {
 		System.out.println("I'm a Troll");
 	}

@@ -1,4 +1,4 @@
-package library;
+package library.object;
 
 public class ObjectMethods {
     public static void main(String[] args) {

@@ -1,10 +1,10 @@
-package module03.practice;
+package module03.practice.lesson2;
 
 import java.util.Scanner;
 
 public class ScannerApp {
     public static void main(String[] args) {
-/*
+
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()) {      // hasNext() return boolean
             String nextLine = sc.nextLine();
@@ -17,7 +17,7 @@ public class ScannerApp {
             nextLine = sc.nextLine();
         }
         sc.close();
-*/
+
         boolean x = true;
         while (!x) {    // false
             System.out.println("True");

@@ -1,4 +1,4 @@
-package library;
+package library.test;
 
 import java.lang.Object;
 import java.lang.System;

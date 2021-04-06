@@ -1,4 +1,4 @@
-package module06.GRASP;
+package library.GRASP;
 
 public class InfoGRASP {
     // Принципы ООП и паттерны
@@ -14,7 +14,7 @@ public class InfoGRASP {
     //Основные шаблоны распределения обязанностей в программном обеспечении
     
     /*
-    Информационный эксперт  (Information Expert)
+    Информационный эксперт  (Information Expert)   +
     Создатель               (Creator)
     Низкая связанность      (Low Coupling)
     Высокое зацепление      (High Cohesion)

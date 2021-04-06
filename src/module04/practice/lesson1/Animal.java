@@ -1,7 +1,4 @@
-package module05.practice;
-
-
-import java.util.Objects;
+package module04.practice.lesson1;
 
 public abstract class Animal {
     
@@ -16,27 +13,21 @@ public abstract class Animal {
         this.y = this.y + y;
     }
     
+    protected abstract String voice();
+            
     public String getName() {
         return name;
     }
-    
+
     public void setName(String name) {
         this.name = name;
     }
-    /*
-    public String test() {
-        String s = "...";
-        String voice = voice();
-        return voice + s;
-    }
-    */
-    //protected abstract String voice();
-    public abstract String voice();
 
     @Override
     public String toString() {
-        return "Animal{" + "name=" + name + ", x=" + x + ", y=" + y + '}';
+        return "Animal{" + "name=" + 
+                name + ", x=" + 
+                x + ", y=" + 
+                y + '}';
     }
-    
-    
 }

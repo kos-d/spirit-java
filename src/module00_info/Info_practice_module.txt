@@ -58,7 +58,7 @@ module03
                     -this
                 -constructor
                     -default
-                -overload
+                    -overload
 ---------------------------------------
 module04
     lesson1:
@@ -84,7 +84,7 @@ module04
                 -equals
                 -hashCode
             -GRASP pattern
-                -information expert (Информационный эксперт)
+                -Information expert (Информационный эксперт)
             -GOF pattern
                 -Template method (Шаблонный метод)
 ---------------------------------------
@@ -98,7 +98,7 @@ module05
             -block static initialization
             -nested static class (вложенный статический)
             -inner class (внутренний не статический)
-            -Generating patterns
+            -generating patterns
                 -Builder pattern (пораждающий паттерн)
             -local class
             -anonymous class
@@ -112,21 +112,31 @@ module05
             -try with resources
     lesson2:
             -GOF pattern 
-                -singleton (пораждающий паттерн)
+                -Singleton (пораждающий паттерн)
             -recursion
             -interface                
             -NullObject
                 -Optional
             -GOF pattern
-                -fabric method
+                -Factory method (пораждающий паттерн)
             -pattern 
-                -prototype (пораждающий паттерн)
+                -Prototype (пораждающий паттерн)
             -native
 ---------------------------------------
 module06
     lesson1:
             -immutable Object (неизменяемые)
             -stateless Object (без состояния)
+            -StringBuilder
+            -StringBuffer
+            -methods String
+            -sort Objects
+                -Comparable
+                    -compareTo
+                -Comparator
+                    -compare
+            -pattern 
+                -Abstract Factory (пораждающий паттерн)
 
     lesson2:
 ---------------------------------------
@@ -134,7 +144,7 @@ module07
     lesson1:
             -generic
             -pattern (поведенческий)
-                -iterator
+                -Iterator
             -class Pair
                 -key
                 -value

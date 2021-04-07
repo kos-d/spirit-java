@@ -1,5 +1,7 @@
 package module02.practice.lesson2;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         
@@ -70,5 +72,18 @@ public class Main {
         
         int StringToInt = Integer.valueOf("12");
         System.out.println("StringToInt = " + (StringToInt + 8));   //20
+        
+        String abc = "a bc";
+        String[] split = abc.split(" ");
+        System.out.println("split = " + Arrays.toString(split));
+        
+        char[] charArr = { 'a', 'b', 'c', 'd', 'e' };
+        
+        String stringArr = String.copyValueOf(charArr); 
+        System.out.println("stringArr = " + stringArr);                 //abcde
+        
+        String charArrToString = String.copyValueOf(charArr, 1, 2);
+        System.out.println("charArrToString = " + charArrToString);     //bc
+        
     }
 }

@@ -1,4 +1,4 @@
-package module05.practice.lesson2.fabricmethod;
+package module05.practice.lesson2.factorymethod;
 
 public class Main {
    private String name;

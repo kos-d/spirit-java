@@ -1,23 +1,8 @@
-package module05.practice.lesson2.fabricmethod;
+package module06.practice.lesson1.stateless;
 
 import java.util.Objects;
 
-public abstract class Animal implements IAnimal {
-    
-    public static Animal of() {
-        Animal animal;
-        if (Resources.ANIMAL.equalsIgnoreCase("CAT")) {
-            animal = new Cat();
-        } else if (Resources.ANIMAL.equalsIgnoreCase("DOG")) {
-            animal = new Dog();
-        } else animal = new Animal() {
-            @Override
-            public String voice() {
-                return "uuu";
-            }
-        };
-        return animal;
-    }
+public abstract class Animal {
     
     private String name;
     
@@ -25,7 +10,6 @@ public abstract class Animal implements IAnimal {
     
     private int y;
     
-    @Override
     public void move(int x, int y) {
         this.x = this.x + x;
         this.y = this.y + y;

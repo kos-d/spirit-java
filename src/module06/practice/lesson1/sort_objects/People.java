@@ -1,6 +1,6 @@
-package module06.practice.sortObjects;
+package module06.practice.lesson1.sort_objects;
 
-public class People implements Comparable<People>{
+public class People {//implements Comparable<People>{
     
     private String name;
     private String sureName;
@@ -41,16 +41,17 @@ public class People implements Comparable<People>{
         return "People{" + "name=" + name + ", sureName=" + sureName + ", age=" + age + '}';
     }
 
-    @Override
-    public int compareTo(People people) {
-        //boolean equals = age.equals(people.getAge());
-        if (age > people.getAge()) {    
-            return 1;                   // -1 revers sort
-        }
-        if (age < people.getAge()) {
-            return -1;                  // 1
-        }
-        return 0;
-        //int compare = Integer.compare(age, people.getAge());
-    }
+//    @Override
+//    public int compareTo(People people) {
+//        //boolean equals = age.equals(people.getAge());
+//        if (age > people.getAge()) {
+//            return 1;
+//        } else if (age < people.getAge()) {
+//            return -1;
+//        } else {
+//            return 0;
+//        }
+////         int compare = Integer.compare(age, people.getAge());
+////         return compare;
+//    }
 }

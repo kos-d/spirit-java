@@ -2,7 +2,6 @@ package zgroup.VadimHavrylitse.module01;
 
 import java.util.*;
 
-
 class SomeFile {
 
     public static void main(String[] args) {
@@ -27,16 +26,13 @@ class SomeFile {
                     Collections.sort(friend, new FriendsCompereAge());
                     break;
                 case 32:
-                    Collections.sort(friend, new FriendsCompereName());
+                    //Collections.sort(friend, new FriendsCompereName());
                     break;
                 case 4:
                     break;
                 default:
                     System.out.println("Вы не правильно ввели цифру!");
-
-
             }
-
         }
     }
 

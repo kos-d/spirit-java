@@ -1,9 +1,23 @@
-package module06.practice.lesson1;
+package module05.practice.lesson2.factorymethod;
 
-import module05.practice.lesson2.interfaces.*;
 import java.util.Objects;
 
 public abstract class Animal implements IAnimal {
+    
+    public static Animal of() {
+        Animal animal;
+        if (Resources.ANIMAL.equalsIgnoreCase("CAT")) {
+            animal = new Cat();
+        } else if (Resources.ANIMAL.equalsIgnoreCase("DOG")) {
+            animal = new Dog();
+        } else animal = new Animal() {
+            @Override
+            public String voice() {
+                return "uuu";
+            }
+        };
+        return animal;
+    }
     
     private String name;
     

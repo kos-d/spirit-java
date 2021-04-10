@@ -1,7 +1,8 @@
-package module06.practice.lesson1.stateless;
-// immutable and atateless class
+package module06.practice.lesson2;
 
-public class Cat extends Animal implements Cloneable {
+import java.io.Serializable;
+
+public final class Cat extends Animal implements Serializable {
     
     private String color;
     // stateless class when all field final
@@ -14,6 +15,7 @@ public class Cat extends Animal implements Cloneable {
         this.color = color;
     }
 
+   
     public String getColor() {
         return color;
     }

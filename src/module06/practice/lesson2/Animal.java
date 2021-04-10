@@ -1,6 +1,7 @@
-package module06.practice.lesson1.stateless;
+package module06.practice.lesson2;
 
-import module05.practice.lesson2.factorymethod.*;
+//import module05.practice.lesson2.factorymethod.*;
+import module06.practice.lesson2.Main.*;
 import java.util.Objects;
 
 public abstract class Animal implements IAnimal {

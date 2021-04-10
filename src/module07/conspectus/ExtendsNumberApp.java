@@ -8,12 +8,10 @@ public class ExtendsNumberApp {
     }
     public static void main(String[] args) {
         Integer[] years = {2003, 2001, 2002};
-        Double[] myDouble = {2.1, 2.2, 2.3};
+        Double[] myDouble = {2.3, 2.2, 2.1};
         
         ExtendsNumberApp extendsNumber = new ExtendsNumberApp();
         extendsNumber.printNumber(years);
         extendsNumber.printNumber(myDouble);
-        
-        extendsNumber.printNumber(years);
     }
 }

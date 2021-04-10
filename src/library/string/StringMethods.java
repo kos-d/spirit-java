@@ -113,6 +113,8 @@ public class StringMethods {
 //        
 //        System.out.println("x + y = " + x + y);
         
-        
+        String test = "newString";
+        String substring = test.substring(0, 4);
+        System.out.println("substring -> " + substring);
     }
 }

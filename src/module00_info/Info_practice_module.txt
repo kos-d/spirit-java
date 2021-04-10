@@ -139,21 +139,35 @@ module06
                 -Abstract Factory (пораждающий паттерн)
 
     lesson2:
+            -Serializable
+            -interface methods
+                -default
 ---------------------------------------
 module07
     lesson1:
-            -generic
+            -generic (basic)
             -pattern (поведенческий)
                 -Iterator
             -class Pair
                 -key
                 -value
-                -fabric method
+                -Factory method
                 -List   arrayDeque
                     -ArrayList
                         -methods
-                    -LinkedList
+                    
     lesson2:
+            -servis layer
+            -LinkedList
+                -Node
+                -methods
+            -@FunctionalInterface
+            -abstract methods
+            -ENUM
+                -metods
+            -Iterable (custom iterator)
+            --pattern 
+                -Abstract Factory (repeat)
 ---------------------------------------
 module08
     lesson1:

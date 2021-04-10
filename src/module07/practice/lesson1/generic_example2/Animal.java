@@ -1,24 +1,23 @@
-package module06.practice.lesson1.stateless;
+package module07.practice.lesson1.generic_example2;
 
-import module05.practice.lesson2.factorymethod.*;
 import java.util.Objects;
 
-public abstract class Animal implements IAnimal {
+public abstract class Animal<T> implements IAnimal<T>{
     
-    public static Animal of() {
-        Animal animal;
-        if (Resources.ANIMAL.equalsIgnoreCase("CAT")) {
-            animal = new Cat();
-        } else if (Resources.ANIMAL.equalsIgnoreCase("DOG")) {
-            animal = new Dog();
-        } else animal = new Animal() {
-            @Override
-            public String voice() {
-                return "uuu";
-            }
-        };
-        return animal;
-    }
+//    public static Animal of() {
+//        Animal animal;
+//        if (Resources.ANIMAL.equalsIgnoreCase("CAT")) {
+//            animal = new Cat();
+//        } else if (Resources.ANIMAL.equalsIgnoreCase("DOG")) {
+//            animal = new Dog();
+//        } else animal = new Animal() {
+//            @Override
+//            public String voice() {
+//                return "uuu";
+//            }
+//        };
+//        return animal;
+//    }
     
     private String name;
     
@@ -26,13 +25,15 @@ public abstract class Animal implements IAnimal {
     
     private int y;
     
-    @Override
+    //@Override
     public void move(int x, int y) {
         this.x = this.x + x;
         this.y = this.y + y;
     }
     
-    public abstract  String voice();
+//    public abstract  String voice();
+//    
+//    public abstract  String description();
     
     public int test1(int x, int y) {
         //int z = y * 10;

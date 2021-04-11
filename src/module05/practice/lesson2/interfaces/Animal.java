@@ -16,7 +16,8 @@ public abstract class Animal implements IAnimal {
         this.y = this.y + y;
     }
     
-    public abstract  String voice();
+    @Override
+    public abstract String voice();
     
     public int test1(int x, int y) {
         //int z = y * 10;

@@ -1,6 +1,6 @@
 package offtop.java_patterns.strategy.parkAuto;
 
-public  class Auto {
+public class Auto {
 
     FillStrategy fillStrategy;
 

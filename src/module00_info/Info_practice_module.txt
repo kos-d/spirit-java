@@ -157,10 +157,14 @@ module07
                         -methods
                     
     lesson2:
-            -servis layer
-            -LinkedList
-                -Node
-                -methods
+            -generic example_3
+            -service layer (architecture pattern)
+            -Template Method pattern
+            -custom ArrayList (ArrayWrapper example)
+            -Queue - (FIFO)     Deque - (FIFO, LIFO)
+                -LinkedList - (FIFO, LIFO) 
+                    -Node
+                    -methods
             -@FunctionalInterface
             -abstract methods
             -ENUM

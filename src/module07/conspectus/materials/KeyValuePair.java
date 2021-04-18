@@ -1,4 +1,4 @@
-package module07.conspectus;
+package module07.conspectus.materials;
 
 public class KeyValuePair<K, V> {
     private K key;

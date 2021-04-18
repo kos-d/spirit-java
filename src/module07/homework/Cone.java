@@ -1,10 +1,20 @@
 package module07.homework;
 
 public class Cone extends Shape {
-
-    @Override
-    public void display() {
-        System.out.println("This is Cone!");
+    
+    private String name;
+    
+    public Cone(String name) {
+        this.name = name;
     }
     
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public String display() {
+        String message = "This is " + getName() + "!";
+        return message;
+    }
 }

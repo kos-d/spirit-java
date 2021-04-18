@@ -1,4 +1,4 @@
-package module07.conspectus;
+package module07.conspectus.materials;
 
 public class TypeArrayPrinter {
     public <E> void printArray(E[] data) {

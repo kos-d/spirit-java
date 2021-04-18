@@ -1,4 +1,4 @@
-package module07.conspectus;
+package module07.conspectus.materials;
 
 public class ExtendsNumberApp {
     public <E extends Number & Comparable> void printNumber(E[] array) {

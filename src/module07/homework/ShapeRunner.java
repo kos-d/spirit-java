@@ -3,20 +3,26 @@ package module07.homework;
 public class ShapeRunner {
     public static void main(String[] args) {
         
-        Shape cone = new Cone();
-        cone.display();
+        ShowName showName = new ShowName();
         
-        Shape sphere = new Sphere();
-        sphere.display();
+        Shape cone = new Cone("Cone");
+        String displayCone = showName.displayShape(cone);     
+        System.out.println(displayCone);
         
-        Shape circle = new Circle();        
-        circle.display();
+        Shape circle = new Circle("Circle");
+        String displayCircle = showName.displayShape(circle);     
+        System.out.println(displayCircle);
         
-        Shape quad = new Square();
-        quad.display();    
+        Shape sphere = new Sphere("Sphere");
+        String displaySphere = showName.displayShape(sphere);     
+        System.out.println(displaySphere);
         
-        Shape rectangle = new Rectangle();
-        rectangle.display();
+        Shape square = new Square("Square");
+        String displaySquare = showName.displayShape(square);     
+        System.out.println(displaySquare);
         
+        Shape rectangle = new Rectangle("Rectangle");
+        String displayRectangle = showName.displayShape(rectangle);     
+        System.out.println(displayRectangle);
     }
 }

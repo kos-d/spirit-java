@@ -1,4 +1,4 @@
-package module07.practice.lesson1.collect;
+package module07.practice.lesson1.collect_array_list;
 
 import java.util.ArrayList;
 import java.util.Comparator;

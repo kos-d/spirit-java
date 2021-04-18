@@ -1,6 +1,6 @@
 package module07.homework;
 
-public class ShowName {
+public class ShowNameShape {
     
     public String displayShape(Shape shape) {
         

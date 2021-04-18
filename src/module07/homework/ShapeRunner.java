@@ -3,7 +3,7 @@ package module07.homework;
 public class ShapeRunner {
     public static void main(String[] args) {
         
-        ShowName showName = new ShowName();
+        ShowNameShape showName = new ShowNameShape();
         
         Shape cone = new Cone("Cone");
         String displayCone = showName.displayShape(cone);     

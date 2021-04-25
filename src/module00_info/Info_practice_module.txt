@@ -152,9 +152,9 @@ module07
                 -key
                 -value
                 -Factory method
-                -List   arrayDeque
-                    -ArrayList
-                        -methods
+            -List   arrayDeque
+                -ArrayList
+                    -methods
                     
     lesson2:
             -generic example_3
@@ -170,10 +170,34 @@ module07
             -ENUM
                 -metods
             -Iterable (custom iterator)
-            --pattern 
+            -pattern 
                 -Abstract Factory (repeat)
 ---------------------------------------
 module08
+    lesson1:
+            -CustomArrayList example
+            -Map
+                -methods
+            -HashMap
+                -hashcode
+                -bucket
+            -LinkedHashMap
+                -methods
+            -TreeMap
+                -methods
+            -Set
+                -methods
+            -HashSet        (optiopnal)
+            -LinkedHashSet  (optiopnal)
+                
+    lesson2:
+---------------------------------------
+module09
+    lesson1:
+
+    lesson2:
+---------------------------------------
+module10
     lesson1:
 
     lesson2:

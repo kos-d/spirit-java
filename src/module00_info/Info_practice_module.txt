@@ -191,11 +191,38 @@ module08
             -LinkedHashSet  (optiopnal)
                 
     lesson2:
+            -MyArrayList (optiopnal)
+            -Map
+                -replace method
+                -iterator
+            -ArrayDeque (optional)
+            -PriorityQueue
+            -service layer (architecture pattern)
+            - Pair, Node examples
+            -reflection API
+            -wild card
+            -Serializable
+            -json (intro)
 ---------------------------------------
 module09
     lesson1:
+            -decorator (intro)
+            -FileInputStream
+            -Gson json  Serialization
+            
+            
 
     lesson2:
+---------------------------------------
+module10
+    lesson1:
+
+    lesson2:
+            -stream
+            -spliterator
+            -predicat
+            -forEach
+                -consumer
 ---------------------------------------
 module10
     lesson1:

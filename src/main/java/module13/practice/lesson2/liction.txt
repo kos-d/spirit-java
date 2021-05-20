@@ -1,0 +1,55 @@
+
+лекционный материал по ретрофиту:
+8:50
+compile group: 'com.squareup.retrofit2', name: 'retrofit', version: '2.8.1'
+    compile group: 'com.squareup.retrofit2', name: 'converter-gson', version: '2.8.1'
+    compile group: 'com.squareup.okhttp3', name: 'okhttp', version: '4.4.0'
+8:50
+import lombok.SneakyThrows;
+import okhttp3.OkHttpClient;
+import retrofit2.Call;
+import retrofit2.Response;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
+public class RetrofitConfig {
+    public static <T> T createClient(String apiUrl, Class<T> clientClass) {
+        return new Retrofit.Builder()
+                .client(new OkHttpClient())
+                .baseUrl(apiUrl)
+                .addConverterFactory(GsonConverterFactory.create())
+                .build()
+                .create(clientClass);
+    }
+    @SneakyThrows
+    public static <T> T execute(Call <T> call) {
+        Response<T> response = call.execute();
+        if (response.isSuccessful()) return response.body();
+        else{
+            String errorMessage = "HTTP code : " + response.code() + " -> " + response.errorBody().string();
+            System.out.println(errorMessage);
+            throw new RuntimeException(errorMessage);
+        }
+    }
+}
+8:50
+import java.util.List;
+import retrofit2.Call;
+import retrofit2.http.GET;
+import retrofit2.http.Headers;
+public interface RetrofitClient {
+    @GET("posts")
+    @Headers({"Content-Type: application/json"})
+    Call<List<Model>> getToModel();
+}
+8:51
+import java.util.List;
+import static webprotocol.RetrofitConfig.createClient;
+import static webprotocol.RetrofitConfig.execute;
+public class Main {
+    public static void main(String[] args) {
+        RetrofitClient client = createClient("http://jsonplaceholder.typicode.com",
+                RetrofitClient.class);
+        List<Model> result = execute(client.getToModel());
+        System.out.println(result);
+    }
+}

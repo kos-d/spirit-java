@@ -1,0 +1,262 @@
+module01
+    lesson1:
+            -overview java            
+    lesson2:
+            -primitives type variables
+            -String
+            -wrapper
+            -boolean operations
+            -logical operations
+---------------------------------------
+module02
+    lesson1:
+            -boxing unboxing type
+            -type cast (приведение типов)
+            -field (поле)
+                -static
+                -non static field
+            -signature method
+                -static methods
+                -non static methods
+            -overload methods
+            -void
+            -return
+            -Class
+            -Object            
+    lesson2:
+            -String methods
+            -hash            
+---------------------------------------
+module03
+    lesson1:
+            -arrays
+            -for loop
+            -for each loop
+            -while loop
+                -continue
+                -break
+            -do while loop
+            -multidimentional array
+            -conditional operators (условные операторы)
+                -if else
+    lesson2:
+            -java.util.Arrays.toString()
+            -ternary operator
+            -switch
+            -java.util.Scanner
+            -console output
+                -System.out
+                -System.err
+            -console input
+                -System.in
+            -array
+                -bubble sort
+            -Object methods
+                -toString()
+                -getters
+                -setters
+                    -this
+                -constructor
+                    -default
+                    -overload
+---------------------------------------
+module04
+    lesson1:
+            -oop principles
+                -encapsulation
+                -inheritance
+                    -extends
+                -polymorphism
+            -abstract class
+            -abstract method
+            -access modifiers
+                -package (default)
+                -public 
+                -protected
+                -private
+    lesson2:
+            -@Override
+            -final
+            -this
+            -super
+            -aggregation
+            -Object methods
+                -equals
+                -hashCode
+            -GRASP pattern
+                -Information expert (Информационный эксперт)
+            -GOF pattern
+                -Template method (Шаблонный метод)
+---------------------------------------
+module05
+    lesson1:
+            -constructor
+                -default
+                -overload
+                -this()
+            -block initialization
+            -block static initialization
+            -nested static class (вложенный статический)
+            -inner class (внутренний не статический)
+            -generating patterns
+                -Builder pattern (пораждающий паттерн)
+            -local class
+            -anonymous class
+            -Exception
+                -checked
+                -unchecked
+            -try
+            -catch
+            -multicatch
+            -finally
+            -try with resources
+    lesson2:
+            -GOF pattern 
+                -Singleton (пораждающий паттерн)
+            -recursion
+            -interface                
+            -NullObject
+                -Optional
+            -GOF pattern
+                -Factory method (пораждающий паттерн)
+            -pattern 
+                -Prototype (пораждающий паттерн)
+            -native
+---------------------------------------
+module06
+    lesson1:
+            -immutable Object (неизменяемые)
+            -stateless Object (без состояния)
+            -StringBuilder
+            -StringBuffer
+            -methods String
+            -sort Objects
+                -Comparable
+                    -compareTo
+                -Comparator
+                    -compare
+            -pattern 
+                -Abstract Factory (пораждающий паттерн)
+
+    lesson2:
+            -Serializable
+            -interface methods
+                -default
+---------------------------------------
+module07
+    lesson1:
+            -generic (basic)
+            -pattern (поведенческий)
+                -Iterator
+            -class Pair
+                -key
+                -value
+                -Factory method
+            -List   arrayDeque
+                -ArrayList
+                    -methods
+                    
+    lesson2:
+            -generic example_3
+            -service layer (architecture pattern)
+            -Template Method pattern
+            -custom ArrayList (ArrayWrapper example)
+            -Queue - (FIFO)     Deque - (FIFO, LIFO)
+                -LinkedList - (FIFO, LIFO) 
+                    -Node
+                    -methods
+            -@FunctionalInterface
+            -abstract methods
+            -ENUM
+                -metods
+            -Iterable (custom iterator)
+            -pattern 
+                -Abstract Factory (repeat)
+---------------------------------------
+module08
+    lesson1:
+            -CustomArrayList example
+            -Map
+                -methods
+            -HashMap
+                -hashcode
+                -bucket
+            -LinkedHashMap
+                -methods
+            -TreeMap
+                -methods
+            -Set
+                -methods
+            -HashSet        (optiopnal)
+            -LinkedHashSet  (optiopnal)
+                
+    lesson2:
+            -MyArrayList (optiopnal)
+            -Map
+                -replace method
+                -iterator
+            -ArrayDeque (optional)
+            -PriorityQueue
+            -service layer (architecture pattern)
+            - Pair, Node examples
+            -reflection API
+            -wild card
+            -Serializable
+            -json (intro)
+---------------------------------------
+module09
+    lesson1:
+            -decorator (intro)
+            -FileInputStream
+            -Gson json  Serialization
+            -read file
+            
+            
+
+    lesson2:
+---------------------------------------
+module10
+    lesson1:
+
+    lesson2:
+            -stream
+            -spliterator
+            -predicat
+            -forEach
+                -consumer
+---------------------------------------
+module10
+    lesson1:
+
+    lesson2:
+---------------------------------------
+module11
+    lesson1:
+
+    lesson2:
+            -Callable
+            -MyCallabel
+            -pool
+            -Executors
+            -Future
+            -Scheduler
+            -isDaemon()
+            -setPriority()
+            -annotation
+            -lombok
+---------------------------------------
+module12
+    lesson1:
+
+    lesson2:
+---------------------------------------
+module13
+    lesson1:
+
+    lesson2:
+---------------------------------------
+module14
+    lesson1:
+
+    lesson2:
+---------------------------------------

@@ -1,11 +1,11 @@
-package module03.conspectus.materials.arrays;
+package module03.conspectus.materials.theme01.arrays;
 
 import java.util.Random;
 import java.util.Arrays;
 import java.util.Scanner;
 import java.lang.Math;
 
-public class MethodsArrayApp {
+public class BubbleSortArrayApp {
     public static void main(String[] args) {
 
 //        int[] myArray;              // объявление массива 

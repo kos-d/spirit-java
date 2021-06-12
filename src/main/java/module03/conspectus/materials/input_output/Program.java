@@ -16,7 +16,7 @@ public class Program {
         //Input in console
         
         Scanner in = new Scanner(System.in);
-        System.out.print("Input a numper: ");
+        System.out.print("Input a number: ");
         int num = in.nextInt();
         System.out.println("num " + num);
     }

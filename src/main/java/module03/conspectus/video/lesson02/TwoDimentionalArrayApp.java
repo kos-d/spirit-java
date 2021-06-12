@@ -1,4 +1,4 @@
-package module03.conspectus.video.arrays;
+package module03.conspectus.video.lesson02;
 
 import java.util.Arrays;
 
@@ -56,13 +56,6 @@ public class TwoDimentionalArrayApp {
 }
 
 */
-
-
-
-
-
-
-
 
 /*
 

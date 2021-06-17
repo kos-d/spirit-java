@@ -1,4 +1,4 @@
-package module03.conspectus.materials.theme01.arrays;
+package module03.conspectus.materials.theme02;
 
 import java.util.Random;
 import java.util.Arrays;

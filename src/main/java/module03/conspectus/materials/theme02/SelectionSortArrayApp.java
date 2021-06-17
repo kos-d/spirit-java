@@ -1,17 +1,76 @@
-package module03.conspectus.materials.theme01.arrays;
+package module03.conspectus.materials.theme02;
 
 import java.util.Random;
 import java.util.Arrays;
 import java.util.Scanner;
 import java.lang.Math;
 
-public class BubbleSortArrayApp {
+public class SelectionSortArrayApp {
+
+    public void swap(int[] array, int ind1, int ind2) {
+        int tmp = array[ind1];
+        array[ind1] = array[ind2];
+        array[ind2] = tmp;
+    }
+    public void sort(int[] arr) {
+        for (int min = 0; min < arr.length-1; min++) {
+            int least = min;
+            for (int j = min + 1; j < arr.length; j++) {
+                if (arr[j] < arr[least]) {
+                    least = j;
+                }
+            }
+                int tmp = arr[min];
+                arr[min] = arr[least];
+                arr[least] = tmp;
+        }
+    }
+
     public static void main(String[] args) {
 
 //        int[] myArray;              // объявление массива 
 //        myArray = new int[5];       // создание, выделение памяти для 10 элементов типа int
 
 //        String[] seasons = new String[] {"Winter", "Spring", "Summer", "Autumn"};
+
+        SelectionSortArrayApp selectionSort = new SelectionSortArrayApp();
+        
+        int[] array = {10, 2, 10, 3, 1, 2, 5};
+        System.out.println(Arrays.toString(array));
+        for (int left = 0; left < array.length; left++) {
+            int minInd = left;
+            for (int i = left; i < array.length; i++) {
+                if (array[i] < array[minInd]) {
+                    minInd = i;
+                }
+            }
+            selectionSort.swap(array, left, minInd);
+        }
+        System.out.println(Arrays.toString(array));
+
+        
+        int[] arr = {10, 2, 10, 3, 1, 2, 5};
+        System.out.println(Arrays.toString(arr));
+        for (int left = 0; left < arr.length; left++) {
+            int minInd = left;
+            for (int i = left; i < arr.length; i++) {
+                if (arr[i] < arr[minInd]) {
+                    minInd = i;
+                }
+            }
+            selectionSort.sort(arr);
+        }
+        System.out.println(Arrays.toString(arr));
+    }
+}
+
+
+
+
+
+
+
+/*
         int[] array = {10, 2, 10, 3, 1, 2, 5};
         System.out.println(Arrays.toString(array));
         boolean needIteration = true;
@@ -34,9 +93,7 @@ public class BubbleSortArrayApp {
     }
 }
 
-
-
-
+*/
 
 /*
         int[] array = {10, 2, 10, 3, 1, 2, 5};

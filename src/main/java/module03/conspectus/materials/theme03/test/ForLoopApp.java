@@ -1,4 +1,4 @@
-package module03.conspectus.materials.loops;
+package module03.conspectus.materials.theme03.test;
 import java.util.Scanner;
 import java.util.Arrays;
 

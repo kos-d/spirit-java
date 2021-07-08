@@ -1,4 +1,4 @@
-package module06.conspectus.materials.string_builder;
+package module06.test;
 
 public class StringBuilderApp {
     public static void main(String[] args) {

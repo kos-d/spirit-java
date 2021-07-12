@@ -43,11 +43,10 @@ module06: Работа со строками. Immutable objects
 -------------------------------------------------------
 module07: Интерфейсы. Коллекции (интерфейсы List, Queue)
     lesson1: Интерфейсы. Абстрактный класс vs Интерфейс
-    lesson2: 
-    lesson3: 
-    lesson4: 
-    lesson5: 
-    lesson6: 
+    lesson2: Иерархия классов коллекций 
+    lesson3: List (ArrayList) time complexity
+    lesson4: List (LinkedList)
+    lesson5: Queue/Dequeue
 -------------------------------------------------------
 module08: 
     lesson1: 

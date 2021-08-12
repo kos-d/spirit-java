@@ -1,19 +1,19 @@
 package module07.conspectus.materials.theme04;
 
 public enum DeveloperLevel {
-    Junior(0) {
+    JUNIOR(0) {
         @Override
         public boolean isJunior() {
             return true;
         }
     },
-    Middle(2) {
+    MIDDLE(2) {
         @Override
         public boolean isMiddle() {
             return true;
         }
     },
-    Senior(5) {
+    SENIOR(5) {
         @Override
         public boolean isSenior() {
             return true;

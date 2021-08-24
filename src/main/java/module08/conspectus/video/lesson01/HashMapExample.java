@@ -39,7 +39,6 @@ public class HashMapExample {
         
         System.out.println("Size " + capitals.size());
         
-        
         // вывод ключей
         Set<String> keySet = capitals.keySet();
         System.out.println(keySet);

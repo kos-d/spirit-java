@@ -11,6 +11,10 @@ public class People {//implements Comparable<People>{
         this.sureName = sureName;
         this.age = age;
     }
+
+    public People() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     public String getName() {
         return name;

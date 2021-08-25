@@ -1,4 +1,4 @@
-package module09.conspectus.materials;
+package module09.conspectus.materials.theme01;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

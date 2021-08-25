@@ -1,9 +1,9 @@
-package module09.conspectus.materials;
+package module09.conspectus.materials.theme01;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 
-public class ByteArrayInputStreamTest {
+public class ByteArrayInputStreamTest_01 {
     public static void main(String[] args) throws IOException {
         
         byte[] bytes = {1, 3, 5, 7, 9};

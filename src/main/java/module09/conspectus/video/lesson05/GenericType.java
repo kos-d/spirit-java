@@ -1,4 +1,4 @@
-package module09.conspectus.video.Lesson05;
+package module09.conspectus.video.lesson05;
 
 //public class GenericType<T extends Number> {
 public class GenericType<T> {

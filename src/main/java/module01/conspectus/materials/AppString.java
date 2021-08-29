@@ -10,7 +10,7 @@ public class AppString {
 
         System.out.println(name +"\t "+ lang +"\'   \'"+ longText);
        
-         System.out.println("========================");
+        System.out.println("========================");
 
         System.out.println("\"Java\nIs\nGreat\"\\");
         

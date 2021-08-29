@@ -55,24 +55,18 @@ module07: Интерфейсы и перечисления
     theme04: Enum
 -------------------------------------------------------
 module08: 
-    theme01: 
-    theme02:
-    theme03:
-    theme04:
-    theme05:
-    theme06:
-    theme07:
-    theme08:           
+    theme01: Generic
+    theme02: Java Collection Framework
+    theme03: Интерфейс Collection
+    theme04: Интерфейс Map
+    theme05: Наиболее часто используемые коллекции
 -------------------------------------------------------
 module09: 
-    theme01: 
-    theme02:
-    theme03:
-    theme04:
-    theme05:
-    theme06:
-    theme07:
-    theme08:           
+    theme01: Потоки ввода/вывода
+    theme02: Класс File
+    theme03: Чтение и запись файлов
+    theme04: Сериализация и десериализация
+    theme05: Работа с JSON
 -------------------------------------------------------
 module10: 
     theme01: 

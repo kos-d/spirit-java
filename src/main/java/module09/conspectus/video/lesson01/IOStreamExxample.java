@@ -13,6 +13,8 @@ import java.io.FilterOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.io.OutputStream;
+import java.io.PrintStream;
 //import static java.lang.System.in;
 import module09.conspectus.materials.theme04.serializableExample.Person;
 
@@ -25,6 +27,8 @@ public class IOStreamExxample {
         } catch(Exception ex) {
             System.out.println(ex.getMessage());
         }
+        
+//        OutputStream os = new PrintStream();
 //         try (FileInputStream bis = new BufferedInputStream(in)) {
 //                    
 //        }
@@ -72,8 +76,5 @@ public class IOStreamExxample {
 //        try (DataOutputStream bis = new BufferedInputStream(in)) {
 //                    
 //        }
-
-
-
     }
 }

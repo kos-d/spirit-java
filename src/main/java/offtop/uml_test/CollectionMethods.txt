@@ -1,0 +1,14 @@
++ size(): int
++ isEmpty(): boolean
++ contains(o : Object): boolean
++ toArray(): Object[]
++ toArray(a : T[]): <T> T[]
++ add(e : E): boolean
++ remove(o : Object): boolean
++ containsAll(c : Collection<?>): boolean
++ addAll(c : Collection<? extends E>): boolean
++ removeAll(c : Collection<?>): boolean
++ retainAll(c : Collection<?>): boolean
++ clear(): void
++ equals(o : Object): boolean
++ hashCode(): int

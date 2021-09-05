@@ -54,12 +54,12 @@ module08:
     lesson3: Set (HashSet, LinkedHashSet, TreeSet)
 -------------------------------------------------------
 module09: 
-    lesson1: 
-    lesson2: 
-    lesson3: 
-    lesson4: 
-    lesson5: 
-    lesson6: 
+    lesson1: Обзор пакета java.io
+    lesson2: InputStream/Outputstream и обертки
+    lesson3: Reader/Writer и обертки
+    lesson4: PrintStream, PrintWriter, InputStreamReader, OutputStreamWriter
+    lesson5: Generics
+    lesson6: Enum
 -------------------------------------------------------
 module10: 
     lesson1: 

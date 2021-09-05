@@ -1,23 +1,27 @@
 package offtop.uml_test;
 
-import java.util.List;
-import java.util.ArrayList;
-
-import java.util.Set;
-import java.util.HashSet;
-import java.util.Vector;
-import java.util.Stack;
-import java.util.LinkedList;
-
 public class Main {
     public static void main(String[] args) {
-        List<String> arrayList = new ArrayList<>();
-        List<Integer> vector = new Vector<>();
-        List<String> stack = new Stack<>();
-        List<String> linkedList = new LinkedList<>();
+        Person person1 = new Person("Adam", 30);
+        Person person2 = new Person("Eva", 25);
+        Person person3 = new Person("Eva", 25);
         
+        String toString = person1.toString();
+        String toString1 = person2.toString();
         
+        System.out.println(toString);
+        System.out.println(toString1);
         
-        Set<String> set = new HashSet<>();
+        boolean equals = person1.equals(null);
+        System.out.println("equals: " + equals);
+        
+        boolean name = person1 == null;
+        System.out.println("name: " + name);
+        
+        boolean equals1 = person1.equals(person2);
+        System.out.println("equals1: " + equals1);
+        
+        boolean equals2 = person2.equals(person3);
+        System.out.println("equals2: " + equals2);
     }
 }

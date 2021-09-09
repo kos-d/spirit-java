@@ -83,6 +83,4 @@ class Model {
                 ", title=" + title + 
                 ", body=" + body + '}';
     }
-    
-    
 }

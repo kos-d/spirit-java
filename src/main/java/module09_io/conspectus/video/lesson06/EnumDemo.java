@@ -28,7 +28,7 @@ public class EnumDemo {
         System.out.println(dayOfWeeks1);
         
         EnumMap<DayOfWeek, List<String>> dayPlans = new EnumMap<>(DayOfWeek.class);
-        dayPlans.put(DayOfWeek.MONDAY, Arrays.asList("Сдать тестирование", "Зачислиться в группу tranee"));
+        dayPlans.put(DayOfWeek.MONDAY, Arrays.asList("Сдать тестирование", "Зачислиться в группу trainee"));
         System.out.println(dayPlans);
     }
     

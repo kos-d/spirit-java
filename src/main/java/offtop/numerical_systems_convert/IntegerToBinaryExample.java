@@ -4,7 +4,11 @@ import java.util.Arrays;
 
 public class IntegerToBinaryExample {
     public static void main(String[] args) {
-        Integer number = 19;
+//        Integer number = 6;
+        Integer number = 8;
+//        Integer number = 1;
+//        Integer number = 9;
+//        Integer number = 10;
         
         // бинарный формат числа
         String convert = Integer.toBinaryString(number);

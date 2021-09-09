@@ -2,14 +2,18 @@ package offtop.nix;
 
 public class BooleanTestApp {
     public static void main(String[] args) {
-        boolean a = true;
-        boolean b = false;
-        boolean c = false;
-        System.out.println((a && !b) || c);         // true
-        
-        boolean a1 = false;
-        boolean b1 = true;
-        boolean c1 = false;
-        System.out.println((!a1 || b1) && !c1);     // true
+//        int rc = 1;
+//        for (int i = 11; i > 0; i--) {
+//            if (i % 2 == 0) {
+//                continue;
+//            }
+//            if (i % 5 == 0) {
+//                break;
+//            }
+//            rc +=1;
+//        }
+//        System.out.println(rc);
+
+        byte b = -127;
     }
 }

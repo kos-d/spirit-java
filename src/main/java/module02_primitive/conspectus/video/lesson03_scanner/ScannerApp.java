@@ -1,4 +1,4 @@
-package module02_primitive.conspectus.video.lesson03;
+package module02_primitive.conspectus.video.lesson03_scanner;
 
 import java.util.Scanner;
 

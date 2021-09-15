@@ -8,6 +8,17 @@ public class ArrRef {
         int[] myInt = {5, 7, 9, -5, 6, -2};
         byte[] myByte = {1, 3, 5};
         
+        for (byte b : myByte) {
+            System.out.printf("%d ", b);
+        }
+        
+        System.out.println("");
+        
+        for (int i : myInt) {
+            System.out.printf("%d ", i);
+        }
+        
+        System.out.println("");
         Object myObj = new float[5];
         myRef = myDyn;
         myDyn = myInt;
@@ -20,6 +31,7 @@ public class ArrRef {
                         { 4, 5, 6 },
                         { 7, 8, 9, 0 }
         };
+        
         System.out.println(arr[0][0]);  //1
         System.out.println(arr[1][0]);  //2
         System.out.println(arr[1][1]);  //3

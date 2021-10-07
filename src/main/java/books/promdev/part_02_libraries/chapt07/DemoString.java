@@ -7,18 +7,21 @@ public class DemoString {
         char s[] = { 'J', 'a', 'v', 'a' };
         
         String str = new String(s);
-//        System.out.println(str);
         if (!str.isEmpty()) {
             i = str.length();
-//            System.out.println(i);
             str = str.toUpperCase();
-//            System.out.println(str);
             String num = String.valueOf(6);
-//            System.out.println(num);
-            if (num instanceof String) {
-                
-            }
+            num = str.concat("-" + num);
+            char ch = str.charAt(2);
+            i = str.lastIndexOf('A');
+            num = num.replace("6", "SE");
+            str.substring(0, 4).toLowerCase();
+            str = num + "-6";
+            String[] arr = str.split("-");
+            for (String ss : arr) 
+                System.out.println(ss);
+        } else {
+            System.out.println("String is empty");
         }
-        
     }
 }

@@ -1,4 +1,4 @@
-//package books.promdev.part_02_libraries.chapt09;
+package books.promdev.part_02_libraries.chapt09.io;
 
 public class Runner {
 

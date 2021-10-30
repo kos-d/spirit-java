@@ -6,9 +6,9 @@ import java.io.IOException;
 
 public class ReadHelper {
     
-    String file = "data\\file.txt";    
-    File f = new File(file);    
-    int b, count = 0;
+    private String file = "data\\file.txt";    
+    private final File f = new File(file);    
+    private int b, count = 0;
     
     FileReader is = null;
     

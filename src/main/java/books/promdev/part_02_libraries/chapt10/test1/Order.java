@@ -1,4 +1,4 @@
-package books.promdev.part_02_libraries.chapt10.test;
+package books.promdev.part_02_libraries.chapt10.test1;
 
 import books.promdev.part_02_libraries.chapt10.*;
 

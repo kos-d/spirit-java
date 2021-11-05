@@ -1,44 +1,26 @@
 package books.promdev.part_02_libraries.chapt10;
 
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
+import java.util.ArrayList;
 
-public class Order implements Iterable<Item>{
+public class Order extends ArrayList<Item>{
     private int orderId;
-    private List<Item> listItems;
     
-    public Order(int orderId, List<Item> listItems) {
+    public Order(ArrayList<Item> c) {
+        super(c);
+    }
+    
+    public Order(int orderId, ArrayList<? extends Item> c) {
+        super(c);
         this.orderId = orderId;
-        this.listItems = listItems;
     }
     
     public int getOrderId() {
         return orderId;
     }
     
-    public List<Item> getListItems() {
-        return Collections.unmodifiableList(listItems);
+    public void setOrderId(int orderId) {
+        this.orderId = orderId;
     }
-    
-    public boolean add(Item e) {
-        return listItems.add(e);
-    }
-    
-    public Item get(int index) {
-        return listItems.get(index);
-    }
-    
-    public Item remove(int index) {
-        return listItems.remove(index);
-    }
-    
-    @Override
-    public Iterator<Item> iterator() {
-        return listItems.iterator();
-    }
-    
-    
 //    @Override
 //    public String toString() {
 //        return "Order [ orderId = " + orderId + ", amount = " + amount + " ]";

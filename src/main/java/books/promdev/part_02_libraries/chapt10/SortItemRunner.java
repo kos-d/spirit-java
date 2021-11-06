@@ -23,8 +23,11 @@ public class SortItemRunner {
                 return Double.compare(two.getPrice(), one.getPrice());
             }
         };
-//            Collections.sort(p, comp);
-            Collections.sort(p, new ItemComparator(ItemEnum.PRICE));
+
+//            Item.IdComparator comp = new Item.IdComparator();
+//            Item.PriceComparator comp = new Item.PriceComparator();
+            Collections.sort(p, comp);
+//            Collections.sort(p, new ItemComparator(ItemEnum.ITEM_ID));
             System.out.println(p);
     }
 }

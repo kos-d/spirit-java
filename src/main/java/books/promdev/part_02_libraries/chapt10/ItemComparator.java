@@ -26,7 +26,7 @@ public class ItemComparator implements Comparator<Item> {
             case ITEM_ID:
                 return one.getItemId() - two.getItemId();
             case PRICE:
-                return Double.compare(two.getPrice() - one.getPrice());
+                return Double.compare(two.getPrice(), one.getPrice());
             case NAME:
                 return one.getName().compareTo(two.getName());
             default:

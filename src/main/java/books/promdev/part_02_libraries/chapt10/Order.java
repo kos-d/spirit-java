@@ -2,27 +2,31 @@ package books.promdev.part_02_libraries.chapt10;
 
 import java.util.ArrayList;
 
-public class Order extends ArrayList<Item>{
+public class Order implements Comparable<Order>{
     private int orderId;
+    private float amount;
     
-    public Order(ArrayList<Item> c) {
-        super(c);
-    }
-    
-    public Order(int orderId, ArrayList<? extends Item> c) {
-        super(c);
+    public Order(int orderId, float amount) {
+        super();
         this.orderId = orderId;
+        this.amount = amount;
     }
     
     public int getOrderId() {
         return orderId;
     }
     
-    public void setOrderId(int orderId) {
-        this.orderId = orderId;
+    public float getAmount() {
+        return amount;
     }
-//    @Override
-//    public String toString() {
-//        return "Order [ orderId = " + orderId + ", amount = " + amount + " ]";
-//    }
+    
+    @Override
+    public int compareTo(Order ob) {
+        return this.orderId - ob.orderId;
+    }
+    
+    @Override
+    public String toString() {
+        return "Order [orderId = " + orderId + ", amount = " + amount + " ]" + '\n';
+    }
 }

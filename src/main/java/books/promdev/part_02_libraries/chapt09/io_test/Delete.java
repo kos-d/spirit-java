@@ -1,4 +1,4 @@
-package books.promdev.part_02_libraries.chapt09.io_test;
+//package books.promdev.part_02_libraries.chapt09.io_test;
 
 import java.io.*;
 
@@ -10,6 +10,7 @@ public class Delete {
         }
         try {
             delete(args[0]);
+            System.out.println("directory or file delete");
         } catch (IllegalArgumentException e) {
             System.err.println(e.getMessage());
         }

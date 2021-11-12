@@ -6,7 +6,8 @@ public class SimpleThread extends Thread {
         try {
             if (isDaemon()) {
                 System.out.println("start daemon-thread");
-                Thread.sleep(10_000);
+//                Thread.sleep(10_000);
+                Thread.sleep(1);
             } else {
                 System.out.println("start normal thread");
             }

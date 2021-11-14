@@ -1,4 +1,4 @@
-//package books.promdev.part_02_libraries.chapt09.io_test;
+package books.example.chapt03_io;
 
 import java.io.*;
 

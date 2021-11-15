@@ -9,6 +9,7 @@ public class Empty2 {
             i++;
         }
         
+        
 //        for (;;) {
 //            // infinity loop
 //        }

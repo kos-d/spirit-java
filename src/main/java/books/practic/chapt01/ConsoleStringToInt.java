@@ -1,4 +1,4 @@
-package books.practic.example08;
+package books.practic.chapt01;
 
 import java.io.BufferedReader;
 import java.io.IOException;

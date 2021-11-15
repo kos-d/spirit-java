@@ -25,6 +25,15 @@ public class ConsoleStringToInt {
             System.out.print("error input: " + e);
         } catch (NumberFormatException e) {
             System.out.print("wrong format number: " + e);
+        } finally {
+            if (br != null) {
+                try {
+                    br.close();
+                    System.out.println("br close");
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         }
     }
 }

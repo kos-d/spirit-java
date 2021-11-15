@@ -1,5 +1,5 @@
 //package books.example.chapt03_io;
-
+// -Xlint:deprecation
 import java.awt.Button;
 import java.awt.FileDialog;
 import java.awt.FlowLayout;

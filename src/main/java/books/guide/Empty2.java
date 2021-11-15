@@ -8,5 +8,9 @@ public class Empty2 {
             System.out.println("loop # " + i);
             i++;
         }
+        
+//        for (;;) {
+//            // infinity loop
+//        }
     }
 }

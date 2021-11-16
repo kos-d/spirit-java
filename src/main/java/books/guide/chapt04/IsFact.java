@@ -6,6 +6,6 @@ public class IsFact {
         
         if (x.isFactor(2, 20)) System.out.println("2 - divider");
         if(x.isFactor(3, 20))
-            System.out.println("this string not out");
+            System.out.println("this string is not out");
     }
 }

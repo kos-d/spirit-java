@@ -1,6 +1,9 @@
 package books.guide.chapt07;
 
 public class Rectangle extends TwoDShape {
+    Rectangle(double w, double h) {
+        super(w, h);
+    }
 //    boolean isSquare() {
 //        if (width == height) return true;
 //        return false;

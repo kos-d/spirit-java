@@ -15,10 +15,14 @@ public class RetMeth {
         sportscar.fuelcap = 14;
         sportscar.mpg = 12;
         
-        range1 = minivan.range();
-        range2 = sportscar.range();
+//        range1 = minivan.range();
+//        range2 = sportscar.range();
         
-        System.out.println("Minivan can ride " + minivan.passengers + " passenger on length " + range1 + " mile");
-        System.out.println("Minivan can ride " + sportscar.passengers + " passenger on length " + range2 + " mile");
+        System.out.println("Minivan can ride " + minivan.passengers + " passenger on length " + minivan.range() + " mile");
+        System.out.println("Minivan can ride " + sportscar.passengers + " passenger on length " + sportscar.range() + " mile");
+        
+        if (minivan.range() > sportscar.range()) {
+            System.out.println("minivan > sportscar");
+        }
     }
 }

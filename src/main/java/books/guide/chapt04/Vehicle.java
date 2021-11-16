@@ -8,4 +8,8 @@ public class Vehicle {
     int range() {
         return mpg * fuelcap;
     }
+    
+    double fuelneeded(int miles) {
+        return (double) miles / mpg;
+    }
 }

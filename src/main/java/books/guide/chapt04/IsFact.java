@@ -8,4 +8,8 @@ public class IsFact {
         if(x.isFactor(3, 20))
             System.out.println("this string is not out");
     }
+    
+    int myMeth(int a, double b, float c) {
+        return -1;
+    }
 }

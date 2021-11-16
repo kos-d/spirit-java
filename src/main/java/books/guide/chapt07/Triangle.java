@@ -5,8 +5,7 @@ public class Triangle extends TwoDShape {
     
     // constructor
     Triangle(String s, double w, double h) {
-        setWidth(w);
-        setHeight(h);
+        super(w, h);
         style = s;
     }
     

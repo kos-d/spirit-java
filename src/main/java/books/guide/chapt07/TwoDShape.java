@@ -4,9 +4,17 @@ public class TwoDShape {
     private double width;
     private double height;
     
+    TwoDShape() {
+        width = height = 0.0;
+    }
+    
     TwoDShape(double w, double h) {
         width = w;
         height = h;
+    }
+    
+    TwoDShape(double x) {
+        width = height = x;
     }
     
     double getWidth() { return width; }

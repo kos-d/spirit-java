@@ -5,12 +5,12 @@ public class Shapes {
         Triangle t1 = new Triangle();
         Triangle t2 = new Triangle();
         
-        t1.width = 4.0;
-        t1.height = 4.0;
+        t1.setWidth(4.0);
+        t1.setHeight(4.0);
         t1.style = "painted over";
         
-        t2.width = 8.0;
-        t2.height = 12.0;
+        t2.setWidth(8.0);
+        t2.setHeight(12.0);
         t2.style = "contour";
         
         System.out.println("Information to t1:");
@@ -29,8 +29,8 @@ public class Shapes {
         
         TwoDShape shape = new TwoDShape();
         
-        shape.width = 10;
-        shape.height = 20;
+        shape.setWidth(10);
+        shape.setHeight(20);
         
         shape.showDim();
     }

@@ -1,12 +1,22 @@
 package books.guide.chapt07;
 
 public class Triangle extends TwoDShape {
-    String style;
+    private String style;
+    
+    Triangle() {
+        super();
+        style = "none";
+    }
     
     // constructor
     Triangle(String s, double w, double h) {
         super(w, h);
         style = s;
+    }
+    
+    Triangle(double x) {
+        super(x);
+        style = "painted over";
     }
     
     double area() {

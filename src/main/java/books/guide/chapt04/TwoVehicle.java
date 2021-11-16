@@ -4,6 +4,8 @@ public class TwoVehicle {
     public static void main(String[] args) {
         Vehicle minivan = new Vehicle();
         Vehicle sportscar = new Vehicle();
+        Vehicle sedan;
+        sedan = new Vehicle();
         
         int range1, range2;
         

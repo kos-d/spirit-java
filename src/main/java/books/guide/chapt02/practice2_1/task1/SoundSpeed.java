@@ -2,7 +2,7 @@ package books.guide.chapt02.practice2_1.task1;
 
 public class SoundSpeed {
     private final double SOUND_TRAVEL_SPEED = 1100;
-    public double timeInSecond;
+    public double timeInSeconds;
     public boolean isEcho;
     private int distanceDivisor;
     
@@ -12,6 +12,6 @@ public class SoundSpeed {
         } else {
             distanceDivisor = 1;
         }
-        return (timeInSecond * SOUND_TRAVEL_SPEED) / distanceDivisor;
+        return (timeInSeconds * SOUND_TRAVEL_SPEED) / distanceDivisor;
     }
 }

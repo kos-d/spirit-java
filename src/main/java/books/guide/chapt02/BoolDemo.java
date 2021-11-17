@@ -2,8 +2,7 @@ package books.guide.chapt02;
 
 public class BoolDemo {
     public static void main(String[] args) {
-        boolean b;
-        
+        boolean b;        
         b = false;
         System.out.println("Value b: " + b);
         b = true;

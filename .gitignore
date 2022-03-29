@@ -44,7 +44,6 @@ hs_err_pid*
 
 # vim backUp files
 *.swp
-/dmitrozolotukhin/nbproject/private/
-/dmitrozolotukhin/dist/
-/dmitrozolotukhin/build/
-/spirit-java-nb-settings/nbproject/private/
+
+Application_jdbc_postgresql.java
+UserDAOTest.java

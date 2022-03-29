@@ -1,6 +1,6 @@
 spirit-java-nb-settings/
 
-.properties
+database.properties
 
 /nbproject
 dist/

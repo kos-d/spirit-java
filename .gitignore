@@ -1,5 +1,7 @@
 spirit-java-nb-settings/
 
+.properties
+
 /nbproject
 dist/
 build/

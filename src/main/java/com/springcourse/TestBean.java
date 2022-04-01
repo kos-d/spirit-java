@@ -1,4 +1,4 @@
-package com.dev.springcourse;
+package com.springcourse;
 
 public class TestBean {
     private String name;

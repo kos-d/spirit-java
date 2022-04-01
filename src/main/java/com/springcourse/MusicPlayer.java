@@ -1,4 +1,4 @@
-package com.dev.springcourse;
+package com.springcourse;
 
 import java.util.ArrayList;
 import java.util.List;

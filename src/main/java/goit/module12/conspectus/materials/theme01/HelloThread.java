@@ -1,4 +1,4 @@
-package goit.module12.conspectus.materials;
+package goit.module12.conspectus.materials.theme01;
 
 public class HelloThread extends Thread {
     @Override

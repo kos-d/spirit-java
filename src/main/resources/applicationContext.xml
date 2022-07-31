@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <!-- lesson06 -->
+    
+    <context:property-placeholder location="classpath:musicPlayer.properties"/>
+    
+    <bean id="musicBean"
+        class="com.dev.springcourse.RockMusic">
+    </bean>
+    
+    <bean id="musicPlayer"
+        class="com.dev.springcourse.MusicPlayer">
+        <property name="music" ref="musicBean"/>
+        
+        <property name="name" value="${musicPlayer.name}"/>
+        <property name="volume" value="${musicPlayer.volume}"/>
+        
+        
+<!--        <property name="name" value="Some name"/>
+        <property name="volume" value="50"/>-->
+    </bean>
+    
+    <!-- lesson05 
+    
+    <bean id="musicBean"
+        class="com.dev.springcourse.RockMusic">
+    </bean>
+    
+    <bean id="musicPlayer"
+        class="com.dev.springcourse.MusicPlayer">
+        <constructor-arg ref="musicBean"/>
+    </bean>
+    -->
+    
+    
+    <!--
+    lesson04
+    <bean id="musicBean"
+        class="ua.azuzu.springcourse.RockMusic">
+    //  <constructor-arg value="Azuzu"/>
+    </bean>
+    -->
+    
+    <!--
+    lesson02
+    <bean id="testBean"
+        class="ua.azuzu.springcourse.TestBean">
+        <constructor-arg value="Azuzu"/>
+    </bean>
+    -->
+
+</beans>

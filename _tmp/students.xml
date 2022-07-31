@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<students>
+    <student login="MitarAlex7" faculty="mmf">
+        <name>Mitar Alex</name>
+        <telephone>2456474</telephone>
+        <address>
+            <country>Belarus</country>
+            <sity>Minsk</sity>
+            <street>Gagarina 33</street>
+        </address>
+    </student>
+    <student login="Pashkina5" faculty="mmf">
+        <name>Pashkina Marta</name>
+        <telephone>2326548</telephone>
+        <address>
+            <country>Belarus</country>
+            <city>Brest</city>
+            <street>Karolina 7</street>
+        </address>
+    </student>
+</students>

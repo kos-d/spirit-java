@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <name>Test file</name>
+    <people>
+        <element>
+            <age>20</age>
+            <name>Ivan</name>
+        </element>
+        <element>
+            <age>30</age>
+            <name>Max</name>
+        </element>
+    </people>
+</root>

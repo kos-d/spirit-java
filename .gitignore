@@ -15,7 +15,7 @@ out/
 
 .DS_Store
 *.iml
-*.xml
+
 
 # Compiled class file
 *.class

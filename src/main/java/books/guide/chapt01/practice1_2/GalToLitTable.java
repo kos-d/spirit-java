@@ -1,6 +1,6 @@
 package books.guide.chapt01.practice1_2;
 
-import books.guide.chapt01.practice1_1.*;
+// import books.guide.chapt01.practice1_1.*;
 
 public class GalToLitTable {
 
